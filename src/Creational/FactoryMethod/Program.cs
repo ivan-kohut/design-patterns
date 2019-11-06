@@ -25,11 +25,7 @@ namespace FactoryMethod
           _ => throw new ArgumentException("Sorry, we don't support such kind of smartphone")
         };
 
-        Console.Write("Enter a mobile phone: ");
-
-        smartphoneCreator
-          .Create()
-          .Call(Console.ReadLine());
+        smartphoneCreator.Process();
       }
       else
       {
