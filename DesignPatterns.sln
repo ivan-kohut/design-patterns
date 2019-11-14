@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "src\Structural\A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "src\Structural\Bridge\Bridge.csproj", "{AECBBC31-C47F-48A6-913D-8C0E3AD7AD9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{27084975-92D9-4EFE-9790-B2A94E1DA568}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "src\Structural\Composite\Composite.csproj", "{27084975-92D9-4EFE-9790-B2A94E1DA568}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
