@@ -51,9 +51,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "src\Behavioral\Sta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "src\Behavioral\Strategy\Strategy.csproj", "{9CB61ED0-5436-4C4B-94F6-DA9E35A01E4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "src\Behavioral\TemplateMethod\TemplateMethod.csproj", "{B221D555-90E9-400B-9A83-97A2D773D3A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "src\Behavioral\TemplateMethod\TemplateMethod.csproj", "{B221D555-90E9-400B-9A83-97A2D773D3A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "src\Behavioral\Visitor\Visitor.csproj", "{8DE9ACC3-B7B3-40C4-B7B3-B4F8693A8F79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "src\Behavioral\Visitor\Visitor.csproj", "{8DE9ACC3-B7B3-40C4-B7B3-B4F8693A8F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "src\Behavioral\Interpreter\Interpreter.csproj", "{D52BA020-A16A-4647-B013-EA5AC108E9B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +151,10 @@ Global
 		{8DE9ACC3-B7B3-40C4-B7B3-B4F8693A8F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DE9ACC3-B7B3-40C4-B7B3-B4F8693A8F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DE9ACC3-B7B3-40C4-B7B3-B4F8693A8F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D52BA020-A16A-4647-B013-EA5AC108E9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52BA020-A16A-4647-B013-EA5AC108E9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52BA020-A16A-4647-B013-EA5AC108E9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52BA020-A16A-4647-B013-EA5AC108E9B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +185,7 @@ Global
 		{9CB61ED0-5436-4C4B-94F6-DA9E35A01E4C} = {3B975867-8453-4854-B303-7EDFCC99EF43}
 		{B221D555-90E9-400B-9A83-97A2D773D3A3} = {3B975867-8453-4854-B303-7EDFCC99EF43}
 		{8DE9ACC3-B7B3-40C4-B7B3-B4F8693A8F79} = {3B975867-8453-4854-B303-7EDFCC99EF43}
+		{D52BA020-A16A-4647-B013-EA5AC108E9B7} = {3B975867-8453-4854-B303-7EDFCC99EF43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6CC15CF1-2CC1-4619-9AB8-3D8F1F3C64F0}
